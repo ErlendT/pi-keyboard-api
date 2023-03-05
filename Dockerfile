@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM arm32v6/python:3.7-alpine
 
 RUN pip install uvicorn starlite
 
