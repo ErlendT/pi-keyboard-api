@@ -1,4 +1,4 @@
 from pydantic import BaseModel
 
-class KeyboardInput(BaseModel):
+class KeyboardInputModel(BaseModel):
     input: str
