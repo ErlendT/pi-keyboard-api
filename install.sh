@@ -1,4 +1,5 @@
 #!/bin/sh
+
 echo Running install script\n\n
 
 echo Removing old install if exists

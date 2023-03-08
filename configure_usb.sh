@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo Change USB to HID device using isticktoit script
 echo http://www.isticktoit.net/?p=1383
 
