@@ -1,5 +1,5 @@
 FROM arm32v6/python:3.11-alpine
-
+WORKDIR /code
 # Install binaries
 RUN apk update && apk add python3-dev \
                         gcc \
@@ -7,8 +7,9 @@ RUN apk update && apk add python3-dev \
                         libffi-dev
                         
 # Install packages
-RUN pip install --no-cache-dir setuptools uvicorn starlite
+RUN pip install --no-cache-dir --upgrade setuptools uvicorn starlite
 
-COPY app ./app
+COPY ./app /code/app
 
-CMD ["uvicorn", "app.main:app"]
+EXPOSE 80
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
