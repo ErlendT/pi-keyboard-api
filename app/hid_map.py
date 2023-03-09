@@ -23,43 +23,79 @@ HID_MAP = {
     "KEY_ERR_OVF": "\x01", #  Keyboard Error Roll Over - used for all slots if too many keys are pressed ("Phantom key")
     # \x02 //  Keyboard POST Fail
     # \x03 //  Keyboard Error Undefined
-    "KEY_A": "\x04", # Keyboard a and A
-    "KEY_B": "\x05", # Keyboard b and B
-    "KEY_C": "\x06", # Keyboard c and C
-    "KEY_D": "\x07", # Keyboard d and D
-    "KEY_E": "\x08", # Keyboard e and E
-    "KEY_F": "\x09", # Keyboard f and F
-    "KEY_G": "\x0a", # Keyboard g and G
-    "KEY_H": "\x0b", # Keyboard h and H
-    "KEY_I": "\x0c", # Keyboard i and I
-    "KEY_J": "\x0d", # Keyboard j and J
-    "KEY_K": "\x0e", # Keyboard k and K
-    "KEY_L": "\x0f", # Keyboard l and L
-    "KEY_M": "\x10", # Keyboard m and M
-    "KEY_N": "\x11", # Keyboard n and N
-    "KEY_O": "\x12", # Keyboard o and O
-    "KEY_P": "\x13", # Keyboard p and P
-    "KEY_Q": "\x14", # Keyboard q and Q
-    "KEY_R": "\x15", # Keyboard r and R
-    "KEY_S": "\x16", # Keyboard s and S
-    "KEY_T": "\x17", # Keyboard t and T
-    "KEY_U": "\x18", # Keyboard u and U
-    "KEY_V": "\x19", # Keyboard v and V
-    "KEY_W": "\x1a", # Keyboard w and W
-    "KEY_X": "\x1b", # Keyboard x and X
-    "KEY_Y": "\x1c", # Keyboard y and Y
-    "KEY_Z": "\x1d", # Keyboard z and Z
+    "a": "\x00\x00\x04", # Keyboard a and A
+    "A": "\x20\x00\x04",
+    "b": "\x00\x00\x05", # Keyboard b and B
+    "B": "\x20\x00\x05",
+    "c": "\x00\x00\x06", # Keyboard c and C
+    "C": "\x20\x00\x06",
+    "d": "\x00\x00\x07", # Keyboard d and D
+    "D": "\x20\x00\x07",
+    "e": "\x00\x00\x08", # Keyboard e and E
+    "E": "\x20\x00\x08",
+    "f": "\x00\x00\x09", # Keyboard f and F
+    "F": "\x20\x00\x09",
+    "g": "\x00\x00\x0a", # Keyboard g and G
+    "G": "\x20\x00\x0a",
+    "h": "\x00\x00\x0b", # Keyboard h and H
+    "H": "\x20\x00\x0b",
+    "i": "\x00\x00\x0c", # Keyboard i and I
+    "I": "\x20\x00\x0c",
+    "j": "\x00\x00\x0d", # Keyboard j and J
+    "J": "\x20\x00\x0d",
+    "k": "\x00\x00\x0e", # Keyboard k and K
+    "K": "\x20\x00\x0e",
+    "l": "\x00\x00\x0f", # Keyboard l and L
+    "L": "\x20\x00\x0f",
+    "m": "\x00\x00\x10", # Keyboard m and M
+    "M": "\x20\x00\x10",
+    "n": "\x00\x00\x11", # Keyboard n and N
+    "N": "\x20\x00\x11",
+    "o": "\x00\x00\x12", # Keyboard o and O
+    "O": "\x20\x00\x12",
+    "p": "\x00\x00\x13", # Keyboard p and P
+    "P": "\x20\x00\x13",
+    "q": "\x00\x00\x14", # Keyboard q and Q
+    "Q": "\x20\x00\x14",
+    "r": "\x00\x00\x15", # Keyboard r and R
+    "R": "\x20\x00\x15",
+    "s": "\x00\x00\x16", # Keyboard s and S
+    "S": "\x20\x00\x16",
+    "t": "\x00\x00\x17", # Keyboard t and T
+    "T": "\x20\x00\x17",
+    "u": "\x00\x00\x18", # Keyboard u and U
+    "U": "\x20\x00\x18",
+    "v": "\x00\x00\x19", # Keyboard v and V
+    "V": "\x20\x00\x19",
+    "w": "\x00\x00\x1a", # Keyboard w and W
+    "W": "\x20\x00\x1a",
+    "x": "\x00\x00\x1b", # Keyboard x and X
+    "X": "\x20\x00\x1b",
+    "y": "\x00\x00\x1c", # Keyboard y and Y
+    "Y": "\x20\x00\x1c",
+    "z": "\x00\x00\x1d", # Keyboard z and Z
+    "Z": "\x20\x00\x1d",
 
-    "KEY_1": "\x1e", # Keyboard 1 and !
-    "KEY_2": "\x1f", # Keyboard 2 and @
-    "KEY_3": "\x20", # Keyboard 3 and #
-    "KEY_4": "\x21", # Keyboard 4 and $
-    "KEY_5": "\x22", # Keyboard 5 and %
-    "KEY_6": "\x23", # Keyboard 6 and ^
-    "KEY_7": "\x24", # Keyboard 7 and &
-    "KEY_8": "\x25", # Keyboard 8 and *
-    "KEY_9": "\x26", # Keyboard 9 and (
-    "KEY_0": "\x27", # Keyboard 0 and )
+    "1": "\x00\x00\x1e", # Keyboard 1 and !
+    "!": "\x20\x00\x1e",
+    "2": "\x00\x00\x1f", # Keyboard 2 and @
+    "@": "\x20\x00\x1f",
+    "3": "\x00\x00\x20", # Keyboard 3 and #
+    "#": "\x20\x00\x20",
+    "4": "\x00\x00\x21", # Keyboard 4 and $
+    "$": "\x20\x00\x21",
+    "5": "\x00\x00\x22", # Keyboard 5 and %
+    "%": "\x20\x00\x22",
+    "6": "\x00\x00\x23", # Keyboard 6 and ^
+    "^": "\x20\x00\x23",
+    "7": "\x00\x00\x24", # Keyboard 7 and &
+    "&": "\x20\x00\x24",
+    "8": "\x00\x00\x25", # Keyboard 8 and *
+    "*": "\x20\x00\x25",
+    "9": "\x00\x00\x26", # Keyboard 9 and (
+    "(": "\x20\x00\x26",
+    "0": "\x00\x00\x27", # Keyboard 0 and )
+    ")": "\x20\x00\x27",
 
     "KEY_ENTER": "\x28", # Keyboard Return (ENTER)
     "KEY_ESC": "\x29", # Keyboard ESCAPE
