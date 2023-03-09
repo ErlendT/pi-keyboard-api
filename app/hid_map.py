@@ -76,6 +76,7 @@ HID_MAP = {
     "z": "\x00\x00\x1d", # Keyboard z and Z
     "Z": "\x20\x00\x1d",
 
+    # Numbers and special characters
     "1": "\x00\x00\x1e", # Keyboard 1 and !
     "!": "\x20\x00\x1e",
     "2": "\x00\x00\x1f", # Keyboard 2 and @
@@ -96,24 +97,38 @@ HID_MAP = {
     "(": "\x20\x00\x26",
     "0": "\x00\x00\x27", # Keyboard 0 and )
     ")": "\x20\x00\x27",
+    " ": "\x00\x00\x2c", # Keyboard Spacebar
+    "-": "\x00\x00\x2d", # Keyboard - and _
+    "_": "\x20\x00\x2d",
+    "=": "\x00\x00\x2e", # Keyboard = and +
+    "+": "\x20\x00\x2e",
+    "[": "\x00\x00\x2f", # Keyboard [ and {
+    "{": "\x20\x00\x2f",
+    "]": "\x00\x00\x30", # Keyboard ] and }
+    "}": "\x20\x00\x30",
+    "\\": "\x00\x00\x31", # Keyboard \ and |
+    "|": "\x20\x00\x31",
+    "#": "\x00\x00\x32", # Keyboard Non-US # and ~
+    "~": "\x20\x00\x32",
+    ";": "\x00\x00\x33", # Keyboard ; and :
+    ":": "\x20\x00\x33",
+    "'": "\x00\x00\x34", # Keyboard ' and "
+    "\"": "\x20\x00\x34",
+    "`": "\x00\x00\x35", # Keyboard ` and ~
+    "~": "\x20\x00\x35",
+    ",": "\x00\x00\x36", # Keyboard , and <
+    "<": "\x20\x00\x36",
+    ".": "\x00\x00\x37", # Keyboard . and >
+    ">": "\x20\x00\x37",
+    "/": "\x00\x00\x38", # Keyboard / and ?
+    "?": "\x20\x00\x38",
 
+    # Special
     "KEY_ENTER": "\x28", # Keyboard Return (ENTER)
     "KEY_ESC": "\x29", # Keyboard ESCAPE
     "KEY_BACKSPACE": "\x2a", # Keyboard DELETE (Backspace)
     "KEY_TAB": "\x2b", # Keyboard Tab
     "KEY_SPACE": "\x2c", # Keyboard Spacebar
-    "KEY_MINUS": "\x2d", # Keyboard - and _
-    "KEY_EQUAL": "\x2e", # Keyboard = and +
-    "KEY_LEFTBRACE": "\x2f", # Keyboard [ and {
-    "KEY_RIGHTBRACE": "\x30", # Keyboard ] and }
-    "KEY_BACKSLASH": "\x31", # Keyboard \ and |
-    "KEY_HASHTILDE": "\x32", # Keyboard Non-US # and ~
-    "KEY_SEMICOLON": "\x33", # Keyboard ; and :
-    "KEY_APOSTROPHE": "\x34", # Keyboard ' and "
-    "KEY_GRAVE": "\x35", # Keyboard ` and ~
-    "KEY_COMMA": "\x36", # Keyboard , and <
-    "KEY_DOT": "\x37", # Keyboard . and >
-    "KEY_SLASH": "\x38", # Keyboard / and ?
     "KEY_CAPSLOCK": "\x39", # Keyboard Caps Lock
 
     "KEY_F1": "\x3a", # Keyboard F1
